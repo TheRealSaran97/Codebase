@@ -46,6 +46,12 @@ public class operators {
 
         System.out.println("e = " + e + ", f = " + f); //e=9 f=28
 
+        //program7
+        int s=5;
+        int r = s++ + ++s + s++ + ++s; //Output:r=5+7+7+9=28 r=28,z=9
+
+        System.out.println("s = " + s + ", r = " + r);
+
 
 
     }
